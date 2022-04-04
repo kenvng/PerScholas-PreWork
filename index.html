@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Vu Hoang Nguyen</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+<body>
+    <style>
+        * {
+    box-sizing: border-box;
+  }
+  
+  html {
+      color: black;
+    font-size: 16px;
+    background-color: burlywood;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h2, h3 {
+    font-weight: 300;
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+  }
+  p {
+    margin: 0;
+  }
+
+  table {
+    background-color: bisque;
+    
+  }
+  form {
+      background-color: darkcyan;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+input[type="submit"] {
+                display: block;
+                width: auto;
+                min-margin: 300px;
+                margin: 1em auto;
+                height: 2em;
+                font-size: 1.1rem;
+                background-color: #3b3b4f;
+                border-color: white;
+            }
+            a {
+                color: #dfdfe2;
+            }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+    <nav>
+        <!-- <ul>
+            <li>Home</li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="about_me.html">Contact Me</a></li>
+        </ul> -->
+        Home | <a href="./pages/about.html">About Me</a> | <a href="./pages/contact.html">Contact</a>
+    </nav>
+<HEADER>   
+    <h2>Ken Vu Hoang Nguyen</h2>
+</HEADER> 
+
+<SEACTION>
+    <h3>Welcome to my place.  I hope you have a good time and enjoy your stay.</h3>
+    <p>
+        I am an Asian American.  I grew up in South East Asia.  I am a Network/System Admin for Antenna Research Associate (ARA), Inc.  I love drawing, Martial Arts, and graming but my greatest joys are my two little girls who are going to be 5 this summer.
+    </p>
+    <figure>
+        <!-- <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="just a cat"> -->
+        <img src="images/relaxing-cat.jpg" alt="just a cat">
+    </figure>
+    <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="and more cats">
+        <figcaption>Cat <strong>&</strong> more cats.</figcaption>
+    </figure>
+    <p>This is an ordered list</p>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+
+    <p>This is an unordered list</p>
+    <ul>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ul>
+
+    <table width="50%" border=solid>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <th>Ken</th>
+            <th>Nguyen</th>
+            <th>Male</th>
+        </tr>
+    </table>
+</SEACTION>
+
+<SECTION>
+    <form action=''>
+        <fieldset>
+            <div>
+                <label>Enter Your First Name: <input type="text" name="first-name" required /></label>
+            </div>
+            <div>
+                <label>Enter Your Last Name: <input type="text" name="last-name" required /></label>
+            </div>
+            <div>
+                <label>Enter Your Email: <input type="email" name="email" required /></label>
+            </div>
+            <div>
+                <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+            </div> 
+            <div>
+                <lavel>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label><input class="inline" type="radio" name="account-type" /> Personal Account</label>
+            </div>
+            <div>
+                <label><input class="inline" type="radio" name="account-type" /> Business Account</label>
+            </div>
+            <div>
+                <label>
+                    <input class="inline" type="checkbox" name="terms" required /> I accept the <a href="">terms and conditions</a>
+                </label>
+            </div>         
+        </fieldset>
+        <fieldset>
+            <div>
+                <label>Upload a profile picture: <input type="file" name="file" /></label>
+            </div>
+            <div>
+                <label>Input your age (years): <input type="number" name="age" min="13" max="120" />
+                </label>
+            </div>
+            <div>
+                <label>How did you hear about us?
+                    <select name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">News</option>
+                        <option value="2">YouTube Channel</option>
+                        <option value="3">Forum</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Provide a bio:
+                    <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</SECTION>
+
+<FOOTER>
+    Copy Right @2022!
+</FOOTER>
+    
+                    
+    
+</body>
+</html>

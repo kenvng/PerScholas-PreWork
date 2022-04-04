@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+    background-color: burlywood;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h2, h3 {
+    font-weight: 300;
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+  }
+  p {
+    margin: 0;
+  }
+
+  table {
+    background-color: bisque;
+    
+  }
+  form {
+      background-color: darkcyan;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+}
