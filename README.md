@@ -1,4 +1,4 @@
-# PerScholas-PreWork
+# Per Scholas-Pre-Work
 Software Engineering - Pre-work
 Throughout this week, you will learn how a website is created using HTML and add styling to it using CSS. 
 Each day, your HW assignment will add to this weekly assignment, in which you will create your profile website. Your website should include
